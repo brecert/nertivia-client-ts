@@ -118,7 +118,7 @@ img {
   min-width: 200px;
   min-height: 200px;
 
-  max-width: 500px;
+  max-width: min(500px, 100%);
   max-height: 500px;
 
   object-fit: contain;
